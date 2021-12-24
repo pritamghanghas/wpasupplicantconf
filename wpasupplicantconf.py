@@ -57,6 +57,12 @@ class WpaSupplicantConf:
 
     def fields(self):
         return self._fields
+    
+    def set_fields(self, new_fields: OrderedDict) -> None:
+        self._fields = new_fields
+        
+    def set_networks(self,new_networks: OrderedDict) -> None:
+        self._networks = new_networks
 
     def networks(self):
         return self._networks
