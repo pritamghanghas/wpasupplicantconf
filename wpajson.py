@@ -1,6 +1,6 @@
 """this file provides read and write capability for wpa_supplicant.conf with json as interface"""
 
-from typing import OrderedDict
+from collections import OrderedDict
 from systemmgt.wpasupplicantconf.wpasupplicantconf import WpaSupplicantConf
 import json
 
